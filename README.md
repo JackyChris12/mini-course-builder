@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/ecabf7cb-faee-44ce-b91b-a8b325c044ae
+**URL**:(https://mini-course-builder.lovable.app/)
 
 ## How can I edit this code?
 
