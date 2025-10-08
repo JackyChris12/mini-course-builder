@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ProgressBar } from "@/components/ProgressBar";
+import { AuthButton } from "@/components/AuthButton";
 import { ArrowLeft, Clock, Users, BookOpen, CheckCircle2, Circle } from "lucide-react";
 import { toast } from "sonner";
 
@@ -69,6 +70,9 @@ const CourseDetail = () => {
     <div className="min-h-screen bg-background">
       {/* Header */}
       <section className="relative bg-gradient-primary py-12 px-4">
+        <div className="absolute top-4 right-4">
+          <AuthButton />
+        </div>
         <div className="container mx-auto max-w-6xl">
           <Link to="/">
             <Button variant="ghost" className="text-white hover:bg-white/20 mb-6">

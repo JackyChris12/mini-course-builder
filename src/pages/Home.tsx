@@ -1,4 +1,5 @@
 import { CourseCard } from "@/components/CourseCard";
+import { AuthButton } from "@/components/AuthButton";
 import { courses } from "@/data/courses";
 import { GraduationCap } from "lucide-react";
 
@@ -7,6 +8,9 @@ const Home = () => {
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-primary py-20 px-4">
+        <div className="absolute top-4 right-4">
+          <AuthButton />
+        </div>
         <div className="container mx-auto max-w-6xl text-center">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm mb-6">
             <GraduationCap className="w-8 h-8 text-white" />
